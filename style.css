@@ -156,8 +156,8 @@ button {
 }
 
 #genres {
-    padding: 10px 250px;
     height: 500px;
+    padding: 10px 250px;
 }
 
 #genres h3 {
@@ -187,4 +187,25 @@ button {
     width: 200px;
     border-radius: 10px;
     border: 4px solid #CAD8DE;
+}
+
+#quote {
+    height: 400px;
+    background-color: #E5E7EB;
+    padding: 0 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote blockquote {
+    font-size: 32px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#quote figcaption {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
 }
