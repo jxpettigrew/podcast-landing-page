@@ -154,3 +154,37 @@ button {
     border-radius: 5px;
     border: 2px solid #F9FAF8;
 }
+
+#genres {
+    padding: 10px 250px;
+    height: 500px;
+}
+
+#genres h3 {
+    font-size: 36px;
+    color: #003844;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#genres figcaption {
+    text-align: center;
+    color: #003844;
+    margin: 5px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+#genres .genre-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#genres .genre-image {
+    width: 200px;
+    border-radius: 10px;
+    border: 4px solid #CAD8DE;
+}
